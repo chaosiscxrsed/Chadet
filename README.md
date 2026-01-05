@@ -53,24 +53,60 @@ A luxury cosmetics ecommerce website built with PHP, HTML, CSS, and JavaScript f
 ## 📁 Project Structure
 
 ```
-chadet-cosmetics/
+Chadet/
 ├── index.php              # Homepage
-├── products.php            # Product listing page
-├── product-detail.php      # Individual product page
-├── cart.php               # Shopping cart
-├── about.php              # About page
-├── contact.php            # Contact page
+├── about.php             # About page
+├── contact.php           # Contact page
+├── products.php          # Product listing
+├── product-detail.php    # Product details
+├── cart.php              # Shopping cart
+├── checkout.php          # Checkout process
+├── orders.php            # User orders
+├── wishlist.php          # Wishlist
+│
+├── auth/
+│   ├── login.php         # User login
+│   ├── login_process.php # Login processing
+│   ├── signup.php        # User registration
+│   ├── signup_process.php# Registration processing
+│   ├── logout.php        # Logout
+│   ├── forgot_password.php # Password recovery
+│   └── auth_functions.php # Auth helper functions
+│
+├── user/
+│   ├── profile.php       # User profile
+│   └── orders.php        # User orders
+│
+├── admin/
+│   ├── admin_dashboard.php    # Admin dashboard
+│   ├── admin_login.php        # Admin login
+│   ├── admin_products.php     # Product management
+│   ├── admin_products_add.php # Add products
+│   ├── admin_products_edit.php# Edit products
+│   ├── admin_orders.php       # Order management
+│   ├── admin_customers.php    # Customer management
+│   └── admin_functions.php    # Admin helper functions
+│
 ├── includes/
-│   ├── config.php         # Database configuration
-│   ├── header.php         # Header template
-│   └── footer.php         # Footer template
-├── css/
-│   └── style.css          # Main stylesheet
-├── js/
-│   └── script.js          # JavaScript functionality
+│   ├── config.php        # Database configuration
+│   ├── header.php        # Site header
+│   ├── footer.php        # Site footer
+│   └── auth_functions.php # Authentication functions
+│
+├── assets/
+│   ├── images/           # Product images
+│   │   ├── chadet1.jpg
+│   │   ├── chadet2.jpg
+│   │   └── ...
+│   ├── style.css         # Main stylesheet
+│   └── script.js         # JavaScript file
+│
 ├── database/
-│   └── setup.sql          # Database structure and sample data
-└── README.md              # This file
+│   └── setup.sql         # Database schema
+│
+├── config.php            # Main configuration
+├── README.md             # This file
+└── .gitignore           # Git ignore file
 ```
 
 ## 🎨 Design Features
