@@ -1,0 +1,46 @@
+# XAMPP/Server files
+.htaccess
+error_log
+php.ini
+
+# Database credentials
+config.local.php
+*.sql
+database/
+
+# Environment files
+.env
+.env.local
+.env.development
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+temp/
+tmp/
+
+# User uploads (if any)
+uploads/
+
+# Node modules (if any)
+node_modules/
+
+# Composer (if any)
+vendor/
+composer.lock
+
+# XAMPP specific
+xampp/
