@@ -1,54 +1,66 @@
-# CHADET Cosmetics - Ecommerce Website
+# 🎨 CHADET Cosmetics - Complete E-commerce Platform
 
-A luxury cosmetics ecommerce website built with PHP, HTML, CSS, and JavaScript for XAMPP. Inspired by KylieCosmetics design aesthetic.
+A full-featured cosmetics e-commerce website built with PHP, MySQL, and modern web technologies. Features user authentication, product management, shopping cart, and admin dashboard.
 
-## 🚀 Features
+## 🌐 Live Demo
+*Coming soon - Deploy with XAMPP for local testing*
 
-- **Responsive Design** - Works on desktop, tablet, and mobile devices
-- **Product Catalog** - Browse products by categories (lips, face, eyes, sets)
-- **Product Detail Pages** - Detailed product information with image gallery
-- **Shopping Cart** - Add, update, and remove items from cart
-- **Contact Forms** - Customer inquiries and newsletter subscription
-- **Clean UI/UX** - Modern, luxury cosmetics brand aesthetic
-- **Database Integration** - MySQL database for products and orders
+## ✨ Features
 
-## 📋 Requirements
+### 👥 User Features
+- **User Registration & Login** - Secure authentication system
+- **User Profiles** - Personal information management
+- **Shopping Cart** - Add, remove, and update products
+- **Order Management** - View and track orders
+- **Wishlist** - Save favorite products
+- **Product Search** - Find products quickly
+- **Responsive Design** - Mobile-friendly interface
 
-- **XAMPP** (Apache + MySQL + PHP)
-- **Web Browser** (Chrome, Firefox, Safari, Edge)
-- **PHP 7.4+**
-- **MySQL 5.7+**
+### 👑 Admin Features
+- **Admin Dashboard** - Overview of store performance
+- **Product Management** - Add, edit, and delete products
+- **Order Management** - Process and track customer orders
+- **Customer Management** - View and manage user accounts
+- **Secure Admin Login** - Protected admin area
 
-## 🛠️ Installation Instructions
+## 🛠️ Tech Stack
 
-### Step 1: Download and Install XAMPP
-1. Download XAMPP from [https://www.apachefriends.org/](https://www.apachefriends.org/)
-2. Install XAMPP on your computer
-3. Start Apache and MySQL services from XAMPP Control Panel
+### **Frontend**
+- HTML5, CSS3 (Custom responsive design)
+- JavaScript (Vanilla JS for interactivity)
+- Font Awesome Icons
 
-### Step 2: Setup the Project
-1. Copy the `chadet-cosmetics` folder to your XAMPP `htdocs` directory
-   ```
-   C:\xampp\htdocs\chadet-cosmetics\  (Windows)
-   /Applications/XAMPP/htdocs/chadet-cosmetics/  (Mac)
-   ```
+### **Backend**
+- PHP 7.4+ (Procedural & Object-Oriented)
+- MySQL Database
+- PDO for database operations
+- Session-based authentication
 
-### Step 3: Database Setup
-1. Open phpMyAdmin in your browser: `http://localhost/phpmyadmin`
-2. Create a new database named `chadet_cosmetics`
-3. Import the database structure:
-   - Go to the SQL tab in phpMyAdmin
-   - Copy and paste the contents of `database/setup.sql`
-   - Click "Go" to execute the SQL
+### **Server**
+- XAMPP (Apache, MySQL, PHP)
+- Localhost development environment
 
-**Alternative Method:**
-- Open the website first and the database will be created automatically
-- Then run the SQL file to populate with sample data
+## 🚀 Installation Guide
 
-### Step 4: Access the Website
-1. Open your web browser
-2. Navigate to: `http://localhost/chadet-cosmetics/`
-3. The website should load with the CHADET homepage
+### **Prerequisites**
+1. [XAMPP](https://www.apachefriends.org/) installed
+2. PHP 7.4 or higher
+3. MySQL 5.7 or higher
+4. Web browser (Chrome, Firefox, etc.)
+
+### **Step 1: Clone the Repository**
+```bash
+git clone https://github.com/chaosiscxrsed/Chadet.git
+cd ChadetSet Up XAMPP
+```
+
+### **Step 2: Clone the Repository**
+1. Copy the Chadet folder to:
+C:/xampp/htdocs/Chadet
+
+2. Start XAMPP Control Panel
+
+3. Start Apache and MySQL services
 
 ## 📁 Project Structure
 
@@ -111,11 +123,34 @@ Chadet/
 
 ## 🎨 Design Features
 
-- **Color Scheme**: Pink/rose tones with black and white accents
+- **Color Scheme**: 
+
+Primary: #4e4934 (Dark Brown)
+
+Secondary: #e0c6ad (Beige)
+
+Accent: #d63384 (Pink)
+
+Background: #faf8f5 (Off-white)
+
 - **Typography**: Poppins font family for modern look
 - **Layout**: Grid-based responsive design
 - **Images**: High-quality cosmetic product imagery
 - **Animations**: Smooth hover effects and transitions
+
+## 🔐 Security Features
+
+Password Hashing - bcrypt password encryption
+
+SQL Injection Prevention - PDO prepared statements
+
+XSS Protection - htmlspecialchars() output encoding
+
+CSRF Protection - Token-based form validation
+
+Session Management - Secure session handling
+
+Input Validation - Server-side validation
 
 ## 🛒 Functionality
 
@@ -209,18 +244,16 @@ This project is designed for educational purposes and college projects. It demon
 ## 🎯 Future Enhancements
 
 Potential features for expansion:
-- User authentication and login system
 - Payment integration (PayPal, Stripe)
 - Order management system
 - Product reviews and ratings
 - Search functionality
-- Admin panel for product management
 - Email notifications
 - Inventory management
 
 ## 📄 License
 
-This project is for educational use only. Product images are from Unsplash and used under their license terms.
+This project is for educational use only. Product images are from Chadet Nepal and used under their license terms.
 
 ## 👨‍💻 Author
 
